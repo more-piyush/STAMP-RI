@@ -1,0 +1,31 @@
+# Image datasets (too large for git)
+messidor/
+painters_by_numbers/
+Messidor_Classified/Grade_*/
+Messidor_Original/messidor-2/
+nst_output/
+rot_output/
+result/
+fractal_images/
+negative_images/
+augmented_images/
+positive_images/
+
+# Trained model weights
+*.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+
+# Misc
+*.png
+*.jpeg
+*.jpg
+!Messidor_Classified/*.csv
